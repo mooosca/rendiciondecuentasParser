@@ -1,0 +1,121 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+
+
+
+  <head>
+
+    <link rel="stylesheet" href="/VisualizadorPortalCiudadano/portal/css/jquery.treeview.css" type="text/css" />
+    
+    <!--     <script type="text/javascript" src="js/ui.tabs.js"></script>-->
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="Short description of your site here." />
+    <meta name="keywords" content="keywords, go, here, seperated, by, commas" />
+    
+  </head>
+  <body onContextMenu="return false;">
+
+    <div class="container-fluid">
+      <div class="panel-heats row well">
+	<div class="col-sm-4 col-md-4 col-xs-4 col-lg-4">
+	</div>
+      </div>
+      
+      <div id="Port" class="container-fluid"> 
+ 	<div id="Visual">
+ 	  <div class="page-header">
+	    
+	  </div>
+	  
+	  <div style="display: none;">
+	    <p id="currentFormat">europeanFormat</p>
+	    <div class="europeanFormat">
+	      <p class="decimal-separator">,<p>
+	      <p class="grouping-separator">\.<p>
+	    </div>
+	    <div class="ukFormat">
+	      <p class="decimal-separator">\.<p>
+	      <p class="grouping-separator">,<p>
+	    </div>
+	  </div>
+	</div>	
+	
+	<table class="tablesorter">
+	  <thead>
+	    <tr>
+              <th>Clasification</th>
+              <th>Descrip</th>
+              <th>Cod Program</th>
+              <th>Descrip Program</th>
+              <th>Clasification Program</th>
+              <th>Credits</th>
+              <th>Payment</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+              <td></td>
+              <td> </td>
+              <td>1360</td>
+              <td> </td>
+              <td>Services</td>
+              <td>150.000,00</td>
+              <td>62400</td>
+	    </tr>
+	    <tr>
+              <td>0,00</td>
+              <td> </td>
+              <td>20.504,57</td>
+              <td>20.504,57</td>
+              <td>Services</td>
+              <td>0,00</td>
+              <td>-20.504,57</td>
+	    </tr>
+	    <tr>
+              <td>0,00</td>
+              <td> </td>
+              <td>59.179,70</td>
+              <td>59.179,70</td>
+              <td>Services</td>
+              <td>6.254,79</td>
+              <td>-59.179,70</td>
+	    </tr>
+	    <tr>
+              <td>0,00</td>
+              <td> </td>
+              <td>16.518,85</td>
+              <td>16.518,85</td>
+              <td>Services</td>
+              <td>0,00</td>
+              <td>33.481,15</td>
+	    </tr>
+	  </tbody>
+	  <tfoot>
+	    <tr>
+              <td colspan="6">Total</td>
+              <td>89.478.403,32</td>
+              <td>32.751.626,25</td>
+              <td>122.230.029,57</td>
+              <td>102.342.399,26</td>
+              <td>89.476.722,29</td>
+              <td>84.657.323,46</td>
+              <td>4.819.398,83</td>
+              <td>32.753.307,28</td>
+	    </tr>
+	  </tfoot>
+	</table>
+	
+	<div id="loadingPortal" style="display: none;">
+	  <div id="overlay-loading" style="z-index: 1001; position: absolute; top: 0; left: 0; background: #aaaaaa url(/images/jquery/dialog/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x; opacity: .1;filter:Alpha(Opacity=10);" >
+	  </div>
+	  <div id="loading-div" style="display: block; position: absolute; width: 0; top: 0; z-index: 1002; clear: both;">
+	    <img id="loading1" style="position: absolute; z-index: 1002;" src="images/loading_black.gif" alt="loading" />
+	  </div>
+	</div>
+      </div>	
+    </div>    
+  </body>
+</html>
